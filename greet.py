@@ -1,0 +1,6 @@
+print("Hello... who am I talking to")
+name = str(input())
+print("Cool, how old are you")
+age = int(input())
+print("That's a good age")
+print("So " + name + " in a year you will be " + str(age +1))
