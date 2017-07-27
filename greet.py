@@ -1,8 +1,15 @@
+from time import sleep
+
 print("Hello... who am I talking to")
 name = str(input())
 print("Cool, how old are you")
 age = int(input())
 print("That's a good age")
+sleep(2)
 print("So " + name + " in a year you will be " + str(age +1))
+sleep(3)
+print("HEY")
+sleep(1)
 print("Fun fact, in 2031 you will be " + str(age +14))
+sleep(4)
 print("you should travel more, it's fun ;)")
